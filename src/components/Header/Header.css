@@ -1,0 +1,32 @@
+.twitter-header {
+	background-color: #F7F7F7;
+	width: 100%;
+	display: block;
+	min-height: 46.4px;
+}
+
+.header-navigation {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.header-navigation li {
+	display: inline-block;
+	list-style: none;
+}
+
+.header-navigation li:hover {
+	background-color: #bdc3c7;
+}
+
+.header-navigation li a {
+	display: inline-block;
+	color: #2c3e50;
+	padding: 14px 18px;
+	text-decoration: none;
+}
+
+.new-tweet {
+	float: right;
+}
