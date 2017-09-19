@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
+// firebase
+import {init as firebaseInit} from './javascript/firebase.js'
 // components
 import Header from './components/Header/Header'
 import Main from './Main'
@@ -7,11 +9,18 @@ import './App.css'
 
 // Stateless App component
 
-const App = () => (
-  <div>
-    <Header />
-    <Main />
-  </div>
-)
-
-export default App
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+    firebaseInit()
+  }
+  
+  render() {
+    return (
+      <div>
+        <Header />
+        <Main />
+      </div>  
+    )
+  }
+}
