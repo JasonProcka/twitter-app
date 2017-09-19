@@ -10,7 +10,7 @@ export default class Home extends Component {
 			<div className="Home">
 				<div className="tweet-ladder">
 					<h3>Tweets</h3>
-					<Tweet content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat."/>
+					<Tweet content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat." />
 				</div>
 			</div>
 		)
